@@ -9,11 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController{
-
-    //@IBOutlet weak var ViweIMG: UIImageView!
     
     @IBOutlet weak var ImageButtom: UIButton!
-    
+    @IBOutlet weak var MainButton: UIButton!
     // 画像切り替え用変数
     var imageNumber = 0
     // タイマー
@@ -71,11 +69,13 @@ class ViewController: UIViewController{
         // timerが存在しない時再生処理を行う
         if self.timer == nil
         {
+            MainButton.setTitle("停止", for: .normal)
             startTimer()
         }
         // timerが存在する時は停止処理を行う
        else if self.timer != nil
         {
+            MainButton.setTitle("再生", for: .normal)
             stopTimer()
         }
     }

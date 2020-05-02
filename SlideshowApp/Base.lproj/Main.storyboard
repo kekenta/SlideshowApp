@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="cfz-0M-6kG">
-                                <rect key="frame" x="95" y="494" width="224" height="30"/>
+                                <rect key="frame" x="114.5" y="494" width="185" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrf-uh-KNl">
                                         <rect key="frame" x="0.0" y="0.0" width="31" height="30"/>
@@ -26,14 +26,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35s-JV-SL6">
-                                        <rect key="frame" x="75" y="0.0" width="74" height="30"/>
-                                        <state key="normal" title="再生 / 停止"/>
+                                        <rect key="frame" x="75" y="0.0" width="35" height="30"/>
+                                        <state key="normal" title="再生 "/>
                                         <connections>
                                             <action selector="ActionButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oai-UI-rTn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkl-gK-IOO">
-                                        <rect key="frame" x="193" y="0.0" width="31" height="30"/>
+                                        <rect key="frame" x="154" y="0.0" width="31" height="30"/>
                                         <state key="normal" title="戻る"/>
                                         <connections>
                                             <action selector="BackButtom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ad-EV-VVj"/>
@@ -67,6 +67,7 @@
                     </view>
                     <connections>
                         <outlet property="ImageButtom" destination="3F7-xD-8F0" id="rhn-aB-mK9"/>
+                        <outlet property="MainButton" destination="35s-JV-SL6" id="hXH-jg-yxC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
