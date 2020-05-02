@@ -14,7 +14,6 @@
 		E7B053BB245029DF00320865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B053BA245029DF00320865 /* Assets.xcassets */; };
 		E7B053BE245029DF00320865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B053BC245029DF00320865 /* LaunchScreen.storyboard */; };
 		E7B053C624502F2200320865 /* UpimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B053C524502F2200320865 /* UpimageViewController.swift */; };
-		E7B053D4245031CE00320865 /* 画像 in Resources */ = {isa = PBXBuildFile; fileRef = E7B053D3245031CE00320865 /* 画像 */; };
 		E7B053E224504C2400320865 /* IMG_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7B053E124504C2400320865 /* IMG_1.jpg */; };
 		E7B053E824504C3100320865 /* IMG_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7B053E324504C3100320865 /* IMG_2.jpg */; };
 		E7B053E924504C3100320865 /* IMG_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7B053E424504C3100320865 /* IMG_4.jpg */; };
@@ -33,7 +32,6 @@
 		E7B053BD245029DF00320865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B053BF245029DF00320865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7B053C524502F2200320865 /* UpimageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpimageViewController.swift; sourceTree = "<group>"; };
-		E7B053D3245031CE00320865 /* 画像 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "画像"; path = "../../../画像"; sourceTree = "<group>"; };
 		E7B053E124504C2400320865 /* IMG_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1.jpg; sourceTree = "<group>"; };
 		E7B053E324504C3100320865 /* IMG_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2.jpg; sourceTree = "<group>"; };
 		E7B053E424504C3100320865 /* IMG_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4.jpg; sourceTree = "<group>"; };
@@ -78,7 +76,6 @@
 		E7B053B0245029DE00320865 /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
-				E7B053D3245031CE00320865 /* 画像 */,
 				E7B053B1245029DE00320865 /* AppDelegate.swift */,
 				E7B053B3245029DE00320865 /* SceneDelegate.swift */,
 				E7B053B5245029DE00320865 /* ViewController.swift */,
@@ -149,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B053D4245031CE00320865 /* 画像 in Resources */,
 				E7B053E224504C2400320865 /* IMG_1.jpg in Resources */,
 				E7B053E924504C3100320865 /* IMG_4.jpg in Resources */,
 				E7B053BE245029DF00320865 /* LaunchScreen.storyboard in Resources */,
