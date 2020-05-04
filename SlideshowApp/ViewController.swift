@@ -12,6 +12,8 @@ class ViewController: UIViewController{
     
     @IBOutlet weak var ImageButtom: UIButton!
     @IBOutlet weak var MainButton: UIButton!
+    @IBOutlet weak var NextButton: UIButton!
+    @IBOutlet weak var BackButton: UIButton!
     // 画像切り替え用変数
     var imageNumber = 0
     // タイマー
@@ -70,12 +72,16 @@ class ViewController: UIViewController{
         if self.timer == nil
         {
             MainButton.setTitle("停止", for: .normal)
+            NextButton.isEnabled = false
+            BackButton.isEnabled = false
             startTimer()
         }
         // timerが存在する時は停止処理を行う
        else if self.timer != nil
         {
             MainButton.setTitle("再生", for: .normal)
+            NextButton.isEnabled = true
+            BackButton.isEnabled = true
             stopTimer()
         }
     }
@@ -140,7 +146,9 @@ class ViewController: UIViewController{
     // 戻る画面遷移処理
     @IBAction func unwind(_ segue: UIStoryboardSegue)
     {
-         
+         MainButton.setTitle("再生", for: .normal)
+         NextButton.isEnabled = true
+         BackButton.isEnabled = true
     }
     
 }
